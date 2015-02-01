@@ -73,7 +73,7 @@ shinyApp(
 
 Which gets me a lovely map:  
 
-![That's a long bike ride, y'all](C:\Users\Clint\Documents\bikeshef.jpg)
+![That's a long ride.](http://i.imgur.com/tniXD3P.jpg)
 
 And everything works just peachy.
 
