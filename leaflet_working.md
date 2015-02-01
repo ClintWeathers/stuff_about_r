@@ -1,5 +1,5 @@
 # Getting the Leaflet Package To Work in R
-Clint Weathers  
+
 Saturday, January 31, 2015  
 
 I'm not entirely sure why, but the Shiny example from the [Leaflet write-up on R-Bloggers](http://www.r-bloggers.com/the-leaflet-package-for-online-mapping-in-r/) didn't work for me.
