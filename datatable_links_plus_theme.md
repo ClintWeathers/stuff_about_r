@@ -3,10 +3,20 @@
 ####My problem:  
 I use a datatable in Shiny to render out a dataframe with some links in it to make my life much (much) easier.  
 The new Shiny update uses the new datatables update which makes you escape those links.  
-For whatever reason, it doesnt seem to work for me. 
+For whatever reason, it doesnt seem to work for me.
+This datatable also needs to be themed out a little or my users complain about it being ugly and unprofessional.
 
-After a bit of puttering I found the DT package which will soon deprecate use of renderDataTable in Shiny. 
-So heres how you can have a happily linked and themed dataframe using the DT package and a little bit of hackery.
+After a bit of puttering I found the DT package (which will soon deprecate use of renderDataTable in Shiny I would guess). 
+
+But a simple 
+```R
+library(DT)
+library(shinythemes)
+datatable(oobs, escape= -1, options = list(iDisplayLength = 25))
+```
+didn't seem to work with the theme, no matter where I put it in the line. 
+
+After a bit of looking around, I found a hack that works. You wrap your DT output in Shiny. 
 
 In this example below, column 1 has a link in it like `<a html="http://www.whatever.com">Tevs</a>`. 
 
