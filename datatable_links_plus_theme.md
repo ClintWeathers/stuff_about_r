@@ -3,8 +3,8 @@
 ####My problem:  
 I use a datatable in Shiny to render out a dataframe with some links in it to make my life much (much) easier.  
 The new Shiny update uses the new datatables update which makes you escape those links.  
-For whatever reason, it doesnt seem to work for me.
-This datatable also needs to be themed out a little or my users complain about it being ugly and unprofessional.
+For whatever reason, it doesnt seem to work for me.  
+This datatable also needs to be themed out a little or my users complain about it being ugly and unprofessional.  
 
 After a bit of puttering I found the DT package (which will soon deprecate use of renderDataTable in Shiny I would guess). 
 
