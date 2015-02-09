@@ -18,6 +18,8 @@ does give me the link but didn't seem to work with the theme, no matter where I 
 
 After a bit of looking around, I found a hack that works. You wrap your DT output in Shiny. 
 
+####My Answer:
+
 In this example below, column 1 has a link in it like `<a html="http://www.whatever.com">Tevs</a>`. 
 
 Step 1:
