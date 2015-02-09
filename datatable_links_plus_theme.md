@@ -13,7 +13,7 @@ Step 1:
 * Go get [The new DT tables package here.](https://rstudio.github.io/DT/)
 * Install the shinythemes package as well. 
 
-'''
+```R
 library(shiny)
 library(shinythemes)
 shinyApp(
@@ -24,6 +24,6 @@ shinyApp(
         })
     }
 )
-'''
+```
 So essentially youre using shiny to show your DT rendering but this way you get to theme it out.  
 I suspect that soon that theming will be built into the DT package. 
