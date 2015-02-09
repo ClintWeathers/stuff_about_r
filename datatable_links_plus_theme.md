@@ -40,3 +40,5 @@ shinyApp(
 ```
 So essentially youre using shiny to show your DT rendering but this way you get to theme it out.  
 I suspect that soon that theming will be built into the DT package. 
+
+Mad props to Hadley, Winston, Yihui Xie, and all of those oldschool tablet-carving R users who made it easier for the rest of us. 
