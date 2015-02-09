@@ -12,9 +12,9 @@ But a simple
 ```R
 library(DT)
 library(shinythemes)
-datatable(oobs, escape= -1, options = list(iDisplayLength = 25))
+datatable(Your_Data_Frame, escape= -1, options = list(iDisplayLength = 25))
 ```
-didn't seem to work with the theme, no matter where I put it in the line. 
+does give me the link but didn't seem to work with the theme, no matter where I put it in the line. 
 
 After a bit of looking around, I found a hack that works. You wrap your DT output in Shiny. 
 
