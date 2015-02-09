@@ -13,8 +13,8 @@ Step 1:
 * Go get [The new DT tables package here.](https://rstudio.github.io/DT/)
 * Install the shinythemes package as well. 
 
-
-`library(shiny)
+'''R
+library(shiny)
 library(shinythemes)
 shinyApp(
     ui = fluidPage(theme = shinytheme("cosmo"), DT::dataTableOutput('tbl')),
@@ -23,7 +23,7 @@ shinyApp(
             datatable(Your_Data_Frame, escape= -1, options = list(iDisplayLength = 25))
         })
     }
-)`
-
+)
+'''
 So essentially youre using shiny to show your DT rendering but this way you get to theme it out.  
 I suspect that soon that theming will be built into the DT package. 
