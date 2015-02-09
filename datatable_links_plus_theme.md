@@ -6,8 +6,9 @@ The new Shiny update uses the new datatables update which makes you escape those
 For whatever reason, it doesnt seem to work for me. 
 
 After a bit of puttering I found the DT package which will soon deprecate use of renderDataTable in Shiny. 
-So heres how you can have a happily linked and themed dataframe using the DT package and a little bit of hackery
+So heres how you can have a happily linked and themed dataframe using the DT package and a little bit of hackery.
 
+In this example below, column 1 has a link in it like <a html="http://www.whatever.com">Tevs</a>. 
 
 Step 1:
 * Go get [The new DT tables package here.](https://rstudio.github.io/DT/)
