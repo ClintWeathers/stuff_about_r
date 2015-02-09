@@ -13,7 +13,7 @@ Step 1:
 * Go get [The new DT tables package here.](https://rstudio.github.io/DT/)
 * Install the shinythemes package as well. 
 
-'''R
+'''
 library(shiny)
 library(shinythemes)
 shinyApp(
